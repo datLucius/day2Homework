@@ -1,0 +1,75 @@
+.authors {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  width: 32%;
+  margin: 10px;
+}
+
+.octocat img {
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+}
+
+/* a {
+  display: inline-block;
+  width: 29%;
+  margin: 3%
+  border: 10px solid black;
+
+} */
+
+ul {
+  list-style-type: none;
+}
+.image-footer {
+  border-bottom: 2px solid lightgrey;
+  padding: 20px 0 20px 0;
+  vertical-align: middle;
+
+}
+
+span {
+  color: grey;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: inline;
+  vertical-align: center;
+}
+
+.image-number{
+  display: inline;
+/*   vertical-align: middle; */
+  color: lightgrey;
+}
+
+.image-caption {
+  display: inline;
+/*   vertical-align: middle; */
+  text-align: right;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+/*   vertical-align: middle; */
+}
+
+.authors li {
+  right: 0px;
+  position: relative;
+}
+
+li .authors img {
+  width: 70px;
+  align: right;
+  display: block;
+  vertical-align: middle;
+}
