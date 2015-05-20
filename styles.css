@@ -6,7 +6,7 @@ li {
 
 .octocat img {
   border: 2px solid lightgrey;
-  border-radius: 10px;
+  border-radius: 10px, 10px, 0px, 10px;;
 }
 
 ul {
@@ -75,5 +75,5 @@ border-width: 30px 25px 0 25px;
 border-color: #b7babd transparent transparent transparent;
 float: right;
 vertical-align:top;
-margin-top: -5px;
+margin-top: -7px;
 }
